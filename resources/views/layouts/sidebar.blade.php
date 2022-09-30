@@ -2,7 +2,7 @@
 		<div class="sidebar sidebar-left sidebar-animate">
 			<div class="panel panel-primary card mb-0 box-shadow">
 				<div class="tab-menu-heading border-0 p-3">
-					<div class="card-title mb-0">Notifications</div>
+					<div class="card-title mb-0">الإشعارات</div>
 					<div class="card-options mr-auto">
 						<a href="#" class="sidebar-remove"><i class="fe fe-x"></i></a>
 					</div>
@@ -11,25 +11,26 @@
 					<div class="tabs-menu ">
 						<!-- Tabs -->
 						<ul class="nav panel-tabs">
-							<li class=""><a href="#side1" class="active" data-toggle="tab"><i class="ion ion-md-chatboxes tx-18 ml-2"></i> Chat</a></li>
-							<li><a href="#side2" data-toggle="tab"><i class="ion ion-md-notifications tx-18  ml-2"></i> Notifications</a></li>
-							<li><a href="#side3" data-toggle="tab"><i class="ion ion-md-contacts tx-18 ml-2"></i> Friends</a></li>
+							<li class=""><a href="#side1" class="active" data-toggle="tab"><i class="ion ion-md-chatboxes tx-18 ml-2"></i> الدردشة</a></li>
+							<li><a href="#side2" data-toggle="tab"><i class="ion ion-md-notifications tx-18  ml-2"></i> الإشعارات</a></li>
+							<li><a href="#side3" data-toggle="tab"><i class="ion ion-md-contacts tx-18 ml-2"></i> الأصدقاء</a></li>
 						</ul>
 					</div>
 					<div class="tab-content">
 						<div class="tab-pane active " id="side1">
 							<div class="list d-flex align-items-center border-bottom p-3">
 								<div class="">
-									<span class="avatar bg-primary brround avatar-md">CH</span>
+									<span class="avatar bg-primary brround avatar-md">دردشة</span>
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>New Websites is Created</b>
+										<b>موقع ويب جديد
+                                        </b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">30 mins ago</small>
+											<small class="text-muted ml-auto">منذ نصف ساعة</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -41,12 +42,12 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Prepare For the Next Project</b>
+										<b>التحضير لمشروع جديد</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">2 hours ago</small>
+											<small class="text-muted ml-auto">منذ ساعتين</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -58,12 +59,12 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Decide the live Discussion</b>
+										<b>تقرر المناقشة الحية</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">3 hours ago</small>
+											<small class="text-muted ml-auto">منذ 3 ساعات</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -75,12 +76,12 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Meeting at 3:00 pm</b>
+										<b>الاجتماع الساعة 3:00 مساءً</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">4 hours ago</small>
+											<small class="text-muted ml-auto">قبل 4 ساعات</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -92,12 +93,12 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Prepare for Presentation</b>
+										<b>الاستعداد للعرض التقديمي</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">1 days ago</small>
+											<small class="text-muted ml-auto">قبل يوم واحد</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -109,12 +110,12 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Prepare for Presentation</b>
+										<b>الاستعداد للعرض التقديمي</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">1 days ago</small>
+											<small class="text-muted ml-auto">قبل يوم واحد</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
@@ -126,34 +127,18 @@
 								</div>
 								<a class="wrapper w-100 mr-3" href="#" >
 									<p class="mb-0 d-flex ">
-										<b>Prepare for Presentation</b>
+										<b>الاستعداد للعرض التقديميn</b>
 									</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="d-flex align-items-center">
 											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">45 mintues ago</small>
+											<small class="text-muted ml-auto">قبل 45 دقيقة</small>
 											<p class="mb-0"></p>
 										</div>
 									</div>
 								</a>
 							</div>
-							<div class="list d-flex align-items-center p-3">
-								<div class="">
-									<span class="avatar bg-blue brround avatar-md">U</span>
-								</div>
-								<a class="wrapper w-100 mr-3" href="#" >
-									<p class="mb-0 d-flex ">
-										<b>Prepare for Presentation</b>
-									</p>
-									<div class="d-flex justify-content-between align-items-center">
-										<div class="d-flex align-items-center">
-											<i class="mdi mdi-clock text-muted ml-1"></i>
-											<small class="text-muted ml-auto">2 days ago</small>
-											<p class="mb-0"></p>
-										</div>
-									</div>
-								</a>
-							</div>
+
 						</div>
 						<div class="tab-pane  " id="side2">
 							<div class="list-group list-group-flush ">
@@ -162,9 +147,9 @@
 										<span class="avatar avatar-lg brround cover-image" data-image-src="{{URL::asset('assets/img/faces/12.jpg')}}"><span class="avatar-status bg-success"></span></span>
 									</div>
 									<div>
-										<strong>Madeleine</strong> Hey! there I' am available....
+										<strong>مادلين</strong> يا! هناك أنا متاح ....
 										<div class="small text-muted">
-											3 hours ago
+                                        منذ 3 ساعات
 										</div>
 									</div>
 								</div>
@@ -173,9 +158,9 @@
 										<span class="avatar avatar-lg brround cover-image" data-image-src="{{URL::asset('assets/img/faces/1.jpg')}}"></span>
 									</div>
 									<div>
-										<strong>Anthony</strong> New product Launching...
+										<strong>أنتوني</strong>إطلاق منتج جديد ...
 										<div class="small text-muted">
-											5 hour ago
+                                        منذ 5 ساعات.
 										</div>
 									</div>
 								</div>
