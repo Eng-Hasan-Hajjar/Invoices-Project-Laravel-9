@@ -64,24 +64,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## my packages
 
- "maatwebsite/excel": "^3.1",
- 
-        "fideloper/proxy": "^4.2",
-        "fruitcake/laravel-cors": "^2.0",
-        "fx3costa/laravelchartjs": "^2.8",
-
 
         "laravel/tinker": "^2.7",
-        "laravel/ui": "^4.0",
-
-     
-        "spatie/laravel-permission": "^5.5.5"
-
-
-
-
-
-
+       
         dev
 
    "facade/ignition": "^2.0",
