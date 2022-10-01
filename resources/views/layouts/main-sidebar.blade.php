@@ -38,7 +38,7 @@
                     </svg><span class="side-menu__label">الرئيسية</span></a>
             </li>
 
-            @can('الفواتير')
+        <!--   @can('الفواتير')     -->
                 <li class="side-item side-item-category">الفواتير</li>
 
                 <li class="slide">
@@ -51,38 +51,39 @@
                         </svg><span class="side-menu__label">الفواتير</span><i class="angle fe fe-chevron-down"></i></a>
                     <ul class="slide-menu">
 
-                        @can('قائمة الفواتير')
-
+                    <!--     @can('قائمة الفواتير')-->
                             <li><a class="slide-item" href="{{ url('/' . ($page = 'invoices')) }}">قائمة الفواتير</a></li>
 
-                        @endcan
+                <!--         @endcan-->
 
-                        @can('الفواتير المدفوعة')
+                <!--          @can('الفواتير المدفوعة')-->
+                <!--         @endcan-->
 
                             <li><a class="slide-item" href="{{ url('/' . ($page = 'Invoice_Paid')) }}">الفواتير المدفوعة</a>
 
-                            @endcan
+                     <!--         @can('الفواتير الغير مدفوعة')       -->
+                      <!--         @endcan       -->
 
                         </li>
 
-                        @can('الفواتير الغير مدفوعة')
+                 <!--        @can('الفواتير الغير مدفوعة') -->
                             <li><a class="slide-item" href="{{ url('/' . ($page = 'Invoice_UnPaid')) }}">الفواتير
                                     الغيرمدفوعة</a>
                             </li>
-                        @endcan
+               <!--           @endcan -->
 
-                        @can('الفواتير المدفوعة')
+               <!--            @can('الفواتير المدفوعة') -->
                             <li><a class="slide-item" href="{{ url('/' . ($page = 'Invoice_Partial')) }}">الفواتير المدفوعة
                                     جزئيا</a>
                             </li>
-                        @endcan
+               <!--            @endcan-->
 
-                        @can('ارشيف الفواتير')
+               <!--          @can('ارشيف الفواتير')  -->
                             <li><a class="slide-item" href="{{ url('/' . ($page = 'Archive')) }}">ارشيف الفواتير</a></li>
-                        @endcan
+                <!--           @endcan -->
                     </ul>
                 </li>
-            @endcan
+          <!--     @endcan-->
 
             @can('التقارير')
                 <li class="side-item side-item-category">التقارير</li>
