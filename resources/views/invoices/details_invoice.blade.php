@@ -275,10 +275,8 @@
             </div>
             <!-- /div -->
         </div>
-
     </div>
     <!-- /row -->
-
     <!-- delete -->
     <div class="modal fade" id="delete_file" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -338,7 +336,6 @@
             var file_name = button.data('file_name')
             var invoice_number = button.data('invoice_number')
             var modal = $(this)
-
             modal.find('.modal-body #id_file').val(id_file);
             modal.find('.modal-body #file_name').val(file_name);
             modal.find('.modal-body #invoice_number').val(invoice_number);
