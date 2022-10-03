@@ -14,7 +14,6 @@
 @section('title')
     تعديل فاتورة
 @stop
-
 @section('page-header')
     <!-- breadcrumb -->
     <div class="breadcrumb-header justify-content-between">
@@ -37,7 +36,6 @@
             </button>
         </div>
     @endif
-
     <!-- row -->
     <div class="row">
 
@@ -56,19 +54,16 @@
                                 <input type="text" class="form-control" id="inputName" name="invoice_number"
                                     title="يرجي ادخال رقم الفاتورة" value="{{ $invoices->invoice_number }}" required>
                             </div>
-
                             <div class="col">
                                 <label>تاريخ الفاتورة</label>
                                 <input class="form-control fc-datepicker" name="invoice_Date" placeholder="YYYY-MM-DD"
                                     type="text" value="{{ $invoices->invoice_Date }}" required>
                             </div>
-
                             <div class="col">
                                 <label>تاريخ الاستحقاق</label>
                                 <input class="form-control fc-datepicker" name="Due_date" placeholder="YYYY-MM-DD"
                                     type="text" value="{{ $invoices->Due_date }}" required>
                             </div>
-
                         </div>
 
                         {{-- 2 --}}
@@ -101,12 +96,8 @@
                                     value="{{ $invoices->Amount_collection }}">
                             </div>
                         </div>
-
-
                         {{-- 3 --}}
-
                         <div class="row">
-
                             <div class="col">
                                 <label for="inputName" class="control-label">مبلغ العمولة</label>
                                 <input type="text" class="form-control form-control-lg" id="Amount_Commission"
@@ -114,7 +105,6 @@
                                     oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                                     value="{{ $invoices->Amount_Commission }}" required>
                             </div>
-
                             <div class="col">
                                 <label for="inputName" class="control-label">الخصم</label>
                                 <input type="text" class="form-control form-control-lg" id="Discount" name="Discount"
@@ -122,7 +112,6 @@
                                     oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                                     value="{{ $invoices->Discount }}" required>
                             </div>
-
                             <div class="col">
                                 <label for="inputName" class="control-label">نسبة ضريبة القيمة المضافة</label>
                                 <select name="Rate_VAT" id="Rate_VAT" class="form-control" onchange="myFunction()">
@@ -133,25 +122,20 @@
                                     <option value="10%">10%</option>
                                 </select>
                             </div>
-
                         </div>
-
                         {{-- 4 --}}
-
                         <div class="row">
                             <div class="col">
                                 <label for="inputName" class="control-label">قيمة ضريبة القيمة المضافة</label>
                                 <input type="text" class="form-control" id="Value_VAT" name="Value_VAT"
                                     value="{{ $invoices->Value_VAT }}" readonly>
                             </div>
-
                             <div class="col">
                                 <label for="inputName" class="control-label">الاجمالي شامل الضريبة</label>
                                 <input type="text" class="form-control" id="Total" name="Total" readonly
                                     value="{{ $invoices->Total }}">
                             </div>
                         </div>
-
                         {{-- 5 --}}
                         <div class="row">
                             <div class="col">
@@ -164,8 +148,6 @@
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">حفظ البيانات</button>
                         </div>
-
-
                     </form>
                 </div>
             </div>
