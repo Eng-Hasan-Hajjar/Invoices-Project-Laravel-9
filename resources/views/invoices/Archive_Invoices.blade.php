@@ -82,6 +82,7 @@
                                     <th class="border-bottom-0">العمليات</th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                 @php
                                 $i = 0;
@@ -145,6 +146,7 @@
         <!--/div-->
     </div>
 
+    
     <!-- حذف الفاتورة -->
     <div class="modal fade" id="delete_invoice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
