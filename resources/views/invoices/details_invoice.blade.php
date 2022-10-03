@@ -73,8 +73,7 @@
                                     <div class="tabs-menu1">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs main-nav-line">
-                                            <li><a href="#tab4" class="nav-link active" data-toggle="tab">معلومات
-                                                    الفاتورة</a></li>
+                                            <li><a href="#tab4" class="nav-link active" data-toggle="tab">معلومات  الفاتورة</a></li>
                                             <li><a href="#tab5" class="nav-link" data-toggle="tab">حالات الدفع</a></li>
                                             <li><a href="#tab6" class="nav-link" data-toggle="tab">المرفقات</a></li>
                                         </ul>
@@ -82,11 +81,8 @@
                                 </div>
                                 <div class="panel-body tabs-menu-body main-content-body-right border">
                                     <div class="tab-content">
-
-
                                         <div class="tab-pane active" id="tab4">
                                             <div class="table-responsive mt-15">
-
                                                 <table class="table table-striped" style="text-align:center">
                                                     <tbody>
                                                         <tr>
@@ -110,8 +106,6 @@
                                                             <th scope="row">الخصم</th>
                                                             <td>{{ $invoices->Discount }}</td>
                                                         </tr>
-
-
                                                         <tr>
                                                             <th scope="row">نسبة الضريبة</th>
                                                             <td>{{ $invoices->Rate_VAT }}</td>
@@ -120,7 +114,6 @@
                                                             <th scope="row">الاجمالي مع الضريبة</th>
                                                             <td>{{ $invoices->Total }}</td>
                                                             <th scope="row">الحالة الحالية</th>
-
                                                             @if ($invoices->Value_Status == 1)
                                                                 <td><span
                                                                         class="badge badge-pill badge-success">{{ $invoices->Status }}</span>
@@ -135,7 +128,6 @@
                                                                 </td>
                                                             @endif
                                                         </tr>
-
                                                         <tr>
                                                             <th scope="row">ملاحظات</th>
                                                             <td>{{ $invoices->note }}</td>
@@ -145,7 +137,6 @@
 
                                             </div>
                                         </div>
-
                                         <div class="tab-pane" id="tab5">
                                             <div class="table-responsive mt-15">
                                                 <table class="table center-aligned-table mb-0 table-hover"
@@ -181,8 +172,7 @@
                                                                             class="badge badge-pill badge-danger">{{ $x->Status }}</span>
                                                                     </td>
                                                                 @else
-                                                                    <td><span
-                                                                            class="badge badge-pill badge-warning">{{ $x->Status }}</span>
+                                                                    <td><span class="badge badge-pill badge-warning">{{ $x->Status }}</span>
                                                                     </td>
                                                                 @endif
                                                                 <td>{{ $x->Payment_Date }}</td>
@@ -193,12 +183,8 @@
                                                         @endforeach
                                                     </tbody>
                                                 </table>
-
-
                                             </div>
                                         </div>
-
-
                                         <div class="tab-pane" id="tab6">
                                             <!--المرفقات-->
                                             <div class="card card-statistics">
@@ -305,17 +291,14 @@
                     </button>
                 </div>
                 <form action="{{ route('delete_file') }}" method="post">
-
                     {{ csrf_field() }}
                     <div class="modal-body">
                         <p class="text-center">
                         <h6 style="color:red"> هل انت متاكد من عملية حذف المرفق ؟</h6>
                         </p>
-
                         <input type="hidden" name="id_file" id="id_file" value="">
                         <input type="hidden" name="file_name" id="file_name" value="">
                         <input type="hidden" name="invoice_number" id="invoice_number" value="">
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">الغاء</button>
